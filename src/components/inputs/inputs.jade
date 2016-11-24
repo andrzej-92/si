@@ -1,0 +1,60 @@
+mixin inputs-holder
+    .inputs-holder
+        .inputs
+            ul
+                li
+                    span
+                        label N - wsp uczenia
+                        input#eta(name="n", type="number" min="0" step="0.1")
+
+                li.weights
+                    .title
+                        | Wartosci bazowe WAG
+                    .inputs#base_weights
+                        span
+                            label W0
+                            input(name="w0" type="number" step="0.1")
+                        span
+                            label W1
+                            input(name="w1" type="number" step="0.1")
+                        span
+                            label W2
+                            input(name="w2" type="number" step="0.1")
+
+                li
+                    .title
+                        | Wartosci danych uczacych
+
+                li.data-inputs
+                    .inputs
+                        span
+                            label X0
+                            input(disabled="disabled" value="1" type="number")
+                        span
+                            label X1
+                            input(name="x" type="number" step="0.1")
+                        span
+                            label X2
+                            input(name="x" type="number" step="0.1")
+                        span
+                            label D
+                            input(name="d" type="number" min=0 max=1)
+
+                li.data-inputs
+                    .inputs
+                        span
+                            label X0
+                            input(disabled="disabled" value="1" type="number")
+                        span
+                            label X1
+                            input(name="x" type="number" step="0.1")
+                        span
+                            label X2
+                            input(name="x" type="number" step="0.1")
+                        span
+                            label D
+                            input(name="d" type="number" min=0 max=1)
+
+                li.btn-wrapper
+                    button#add-filed + Dane
+                    button#run Licz

@@ -1,0 +1,23 @@
+{
+  "name": "base-frontend-app",
+  "version": "1.0.0",
+  "authors": [
+    "Andrzej Tracz <andrzej.tracz7@gmail.com>"
+  ],
+  "description": "Base App frontend starter kit",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "requirejs": "^2.2.0"
+  }
+}

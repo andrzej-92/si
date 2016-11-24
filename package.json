@@ -1,0 +1,39 @@
+{
+  "name": "base-frontend-app",
+  "version": "1.0.0",
+  "description": "Base frontend App",
+  "repository": {
+    "type": "git",
+    "url": "https://andrzej_tracz@bitbucket.org/andrzej_tracz/base-frontend.git"
+  },
+  "keywords": [
+    "base frontend starter kit"
+  ],
+  "author": "Andrzej Tracz",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.3.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-clean-css": "^2.0.4",
+    "gulp-debug": "^2.1.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-flatten": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-inheritance": "^0.5.3",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sprite-generator": "^0.2.3",
+    "gulp-uglify": "^1.5.3",
+    "jade": "^1.11.0",
+    "lazypipe": "^1.0.1",
+    "main-bower-files": "^2.9.0",
+    "run-sequence": "^1.1.2"
+  }
+}

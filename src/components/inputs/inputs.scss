@@ -1,0 +1,28 @@
+.inputs-holder {
+  width: 40%;
+  float: left;
+  font: 14px "Open Sans", sans-serif;
+
+  & > .inputs {
+    padding-right: 40px;
+    float: right;
+
+    & > ul {
+      & > li {
+        margin-bottom: 10px;
+
+        &.weights {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    & input {
+      max-width: 45px;
+      padding: 6px;
+      border: 1px solid #ccc;
+      background-color: transparent;
+    }
+  }
+
+}
